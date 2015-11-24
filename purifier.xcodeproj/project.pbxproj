@@ -14,6 +14,15 @@
 		EAA69AB61C044FD80037E89C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAA69AB51C044FD80037E89C /* Assets.xcassets */; };
 		EAA69AB91C044FD80037E89C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAA69AB71C044FD80037E89C /* LaunchScreen.storyboard */; };
 		EAA69AC41C044FD80037E89C /* purifierTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA69AC31C044FD80037E89C /* purifierTests.m */; };
+		EACDC0FB1C04BAEC00E6298E /* button_BG.png in Resources */ = {isa = PBXBuildFile; fileRef = EACDC0F21C04BAEC00E6298E /* button_BG.png */; };
+		EACDC0FC1C04BAEC00E6298E /* scan_BG.png in Resources */ = {isa = PBXBuildFile; fileRef = EACDC0F31C04BAEC00E6298E /* scan_BG.png */; };
+		EACDC0FD1C04BAEC00E6298E /* menuIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = EACDC0F41C04BAEC00E6298E /* menuIcon.png */; };
+		EACDC0FE1C04BAEC00E6298E /* switchIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = EACDC0F51C04BAEC00E6298E /* switchIcon.png */; };
+		EACDC0FF1C04BAEC00E6298E /* sleepIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = EACDC0F61C04BAEC00E6298E /* sleepIcon.png */; };
+		EACDC1001C04BAEC00E6298E /* autoIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = EACDC0F71C04BAEC00E6298E /* autoIcon.png */; };
+		EACDC1011C04BAEC00E6298E /* vitaIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = EACDC0F81C04BAEC00E6298E /* vitaIcon.png */; };
+		EACDC1021C04BAEC00E6298E /* icon_BG.png in Resources */ = {isa = PBXBuildFile; fileRef = EACDC0F91C04BAEC00E6298E /* icon_BG.png */; };
+		EACDC1031C04BAEC00E6298E /* filterIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = EACDC0FA1C04BAEC00E6298E /* filterIcon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +49,15 @@
 		EAA69ABF1C044FD80037E89C /* purifierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = purifierTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAA69AC31C044FD80037E89C /* purifierTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = purifierTests.m; sourceTree = "<group>"; };
 		EAA69AC51C044FD80037E89C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EACDC0F21C04BAEC00E6298E /* button_BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_BG.png; sourceTree = "<group>"; };
+		EACDC0F31C04BAEC00E6298E /* scan_BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scan_BG.png; sourceTree = "<group>"; };
+		EACDC0F41C04BAEC00E6298E /* menuIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menuIcon.png; sourceTree = "<group>"; };
+		EACDC0F51C04BAEC00E6298E /* switchIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = switchIcon.png; sourceTree = "<group>"; };
+		EACDC0F61C04BAEC00E6298E /* sleepIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sleepIcon.png; sourceTree = "<group>"; };
+		EACDC0F71C04BAEC00E6298E /* autoIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = autoIcon.png; sourceTree = "<group>"; };
+		EACDC0F81C04BAEC00E6298E /* vitaIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vitaIcon.png; sourceTree = "<group>"; };
+		EACDC0F91C04BAEC00E6298E /* icon_BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_BG.png; sourceTree = "<group>"; };
+		EACDC0FA1C04BAEC00E6298E /* filterIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = filterIcon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +81,7 @@
 		EAA69A9D1C044FD80037E89C = {
 			isa = PBXGroup;
 			children = (
+				EACDC0F11C04B88C00E6298E /* Resource */,
 				EAA69AA81C044FD80037E89C /* purifier */,
 				EAA69AC21C044FD80037E89C /* purifierTests */,
 				EAA69AA71C044FD80037E89C /* Products */,
@@ -109,6 +128,22 @@
 				EAA69AC51C044FD80037E89C /* Info.plist */,
 			);
 			path = purifierTests;
+			sourceTree = "<group>";
+		};
+		EACDC0F11C04B88C00E6298E /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				EACDC0F21C04BAEC00E6298E /* button_BG.png */,
+				EACDC0F31C04BAEC00E6298E /* scan_BG.png */,
+				EACDC0F41C04BAEC00E6298E /* menuIcon.png */,
+				EACDC0F51C04BAEC00E6298E /* switchIcon.png */,
+				EACDC0F61C04BAEC00E6298E /* sleepIcon.png */,
+				EACDC0F71C04BAEC00E6298E /* autoIcon.png */,
+				EACDC0F81C04BAEC00E6298E /* vitaIcon.png */,
+				EACDC0F91C04BAEC00E6298E /* icon_BG.png */,
+				EACDC0FA1C04BAEC00E6298E /* filterIcon.png */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,9 +226,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EACDC1021C04BAEC00E6298E /* icon_BG.png in Resources */,
+				EACDC1031C04BAEC00E6298E /* filterIcon.png in Resources */,
 				EAA69AB91C044FD80037E89C /* LaunchScreen.storyboard in Resources */,
+				EACDC0FD1C04BAEC00E6298E /* menuIcon.png in Resources */,
 				EAA69AB61C044FD80037E89C /* Assets.xcassets in Resources */,
+				EACDC0FB1C04BAEC00E6298E /* button_BG.png in Resources */,
+				EACDC1001C04BAEC00E6298E /* autoIcon.png in Resources */,
+				EACDC0FC1C04BAEC00E6298E /* scan_BG.png in Resources */,
+				EACDC0FF1C04BAEC00E6298E /* sleepIcon.png in Resources */,
+				EACDC1011C04BAEC00E6298E /* vitaIcon.png in Resources */,
 				EAA69AB41C044FD80037E89C /* Main.storyboard in Resources */,
+				EACDC0FE1C04BAEC00E6298E /* switchIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +448,7 @@
 				EAA69ACA1C044FD80037E89C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EAA69ACB1C044FD80037E89C /* Build configuration list for PBXNativeTarget "purifierTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +457,7 @@
 				EAA69ACD1C044FD80037E89C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
