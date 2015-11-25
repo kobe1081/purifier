@@ -64,6 +64,19 @@
 		EA9371F81C055F9400817EDA /* MainPageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9371F61C055F9400817EDA /* MainPageVC.xib */; };
 		EA9371FA1C05631E00817EDA /* NavBarIOS7.png in Resources */ = {isa = PBXBuildFile; fileRef = EA9371F91C05631E00817EDA /* NavBarIOS7.png */; };
 		EA9371FC1C0564C000817EDA /* NAVGrayBg.png in Resources */ = {isa = PBXBuildFile; fileRef = EA9371FB1C0564C000817EDA /* NAVGrayBg.png */; };
+		EA9372011C05808F00817EDA /* bannerIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = EA9372001C05808F00817EDA /* bannerIcon.png */; };
+		EA9372071C05816F00817EDA /* GrayBG.png in Resources */ = {isa = PBXBuildFile; fileRef = EA9372061C05816F00817EDA /* GrayBG.png */; };
+		EA93720B1C05818E00817EDA /* HeStartPairVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9372091C05818E00817EDA /* HeStartPairVC.m */; };
+		EA93720C1C05818E00817EDA /* HeStartPairVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA93720A1C05818E00817EDA /* HeStartPairVC.xib */; };
+		EA93720F1C0586E600817EDA /* AsynImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA93720E1C0586E600817EDA /* AsynImageView.m */; };
+		EA9372131C05872900817EDA /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9372111C05872900817EDA /* GTMBase64.m */; };
+		EA9372191C05874900817EDA /* AHReach.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9372161C05874900817EDA /* AHReach.m */; };
+		EA93721A1C05874900817EDA /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9372181C05874900817EDA /* Reachability.m */; };
+		EA93721C1C058CE900817EDA /* blueBG.png in Resources */ = {isa = PBXBuildFile; fileRef = EA93721B1C058CE900817EDA /* blueBG.png */; };
+		EA9372201C05A2F900817EDA /* ModifyDeviceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA93721E1C05A2F900817EDA /* ModifyDeviceVC.m */; };
+		EA9372211C05A2F900817EDA /* ModifyDeviceVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA93721F1C05A2F900817EDA /* ModifyDeviceVC.xib */; };
+		EA9372241C05A34100817EDA /* DeviceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9372231C05A34100817EDA /* DeviceModel.m */; };
+		EA9372271C05A3A000817EDA /* PurifierModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9372261C05A3A000817EDA /* PurifierModel.m */; };
 		EAA69AAB1C044FD80037E89C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA69AAA1C044FD80037E89C /* main.m */; };
 		EAA69AAE1C044FD80037E89C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA69AAD1C044FD80037E89C /* AppDelegate.m */; };
 		EAA69AB11C044FD80037E89C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA69AB01C044FD80037E89C /* ViewController.m */; };
@@ -274,6 +287,28 @@
 		EA9371F61C055F9400817EDA /* MainPageVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainPageVC.xib; sourceTree = "<group>"; };
 		EA9371F91C05631E00817EDA /* NavBarIOS7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavBarIOS7.png; sourceTree = "<group>"; };
 		EA9371FB1C0564C000817EDA /* NAVGrayBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NAVGrayBg.png; sourceTree = "<group>"; };
+		EA9372001C05808F00817EDA /* bannerIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bannerIcon.png; sourceTree = "<group>"; };
+		EA9372061C05816F00817EDA /* GrayBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GrayBG.png; sourceTree = "<group>"; };
+		EA9372081C05818E00817EDA /* HeStartPairVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeStartPairVC.h; sourceTree = "<group>"; };
+		EA9372091C05818E00817EDA /* HeStartPairVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeStartPairVC.m; sourceTree = "<group>"; };
+		EA93720A1C05818E00817EDA /* HeStartPairVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeStartPairVC.xib; sourceTree = "<group>"; };
+		EA93720D1C0586E600817EDA /* AsynImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsynImageView.h; sourceTree = "<group>"; };
+		EA93720E1C0586E600817EDA /* AsynImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsynImageView.m; sourceTree = "<group>"; };
+		EA9372101C05872900817EDA /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		EA9372111C05872900817EDA /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		EA9372121C05872900817EDA /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		EA9372151C05874900817EDA /* AHReach.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AHReach.h; sourceTree = "<group>"; };
+		EA9372161C05874900817EDA /* AHReach.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AHReach.m; sourceTree = "<group>"; };
+		EA9372171C05874900817EDA /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		EA9372181C05874900817EDA /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		EA93721B1C058CE900817EDA /* blueBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueBG.png; sourceTree = "<group>"; };
+		EA93721D1C05A2F900817EDA /* ModifyDeviceVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModifyDeviceVC.h; sourceTree = "<group>"; };
+		EA93721E1C05A2F900817EDA /* ModifyDeviceVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModifyDeviceVC.m; sourceTree = "<group>"; };
+		EA93721F1C05A2F900817EDA /* ModifyDeviceVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModifyDeviceVC.xib; sourceTree = "<group>"; };
+		EA9372221C05A34100817EDA /* DeviceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceModel.h; sourceTree = "<group>"; };
+		EA9372231C05A34100817EDA /* DeviceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceModel.m; sourceTree = "<group>"; };
+		EA9372251C05A3A000817EDA /* PurifierModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurifierModel.h; sourceTree = "<group>"; };
+		EA9372261C05A3A000817EDA /* PurifierModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurifierModel.m; sourceTree = "<group>"; };
 		EAA69AA61C044FD80037E89C /* purifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = purifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAA69AAA1C044FD80037E89C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EAA69AAC1C044FD80037E89C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -329,6 +364,10 @@
 		EA9370FE1C054C1E00817EDA /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				EA9372221C05A34100817EDA /* DeviceModel.h */,
+				EA9372231C05A34100817EDA /* DeviceModel.m */,
+				EA9372251C05A3A000817EDA /* PurifierModel.h */,
+				EA9372261C05A3A000817EDA /* PurifierModel.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -336,11 +375,13 @@
 		EA9370FF1C054C2700817EDA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				EA9372051C0580C600817EDA /* PairView */,
+				EA9372031C0580AF00817EDA /* Main */,
 				EA9371031C054C4C00817EDA /* HeInstructionView.h */,
 				EA9371011C054C3B00817EDA /* HeInstructionView.m */,
-				EA9371F41C055F9400817EDA /* MainPageVC.h */,
-				EA9371F51C055F9400817EDA /* MainPageVC.m */,
-				EA9371F61C055F9400817EDA /* MainPageVC.xib */,
+				EA93721D1C05A2F900817EDA /* ModifyDeviceVC.h */,
+				EA93721E1C05A2F900817EDA /* ModifyDeviceVC.m */,
+				EA93721F1C05A2F900817EDA /* ModifyDeviceVC.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -355,8 +396,13 @@
 		EA9371041C054D5000817EDA /* Custom */ = {
 			isa = PBXGroup;
 			children = (
-				EA9371EC1C055C8800817EDA /* CustomNavigationController.h */,
-				EA9371ED1C055C8800817EDA /* CustomNavigationController.m */,
+				EA9372141C05874800817EDA /* NetWorkReach */,
+				EA9372101C05872900817EDA /* GTMBase64.h */,
+				EA9372111C05872900817EDA /* GTMBase64.m */,
+				EA9372121C05872900817EDA /* GTMDefines.h */,
+				EA93720D1C0586E600817EDA /* AsynImageView.h */,
+				EA93720E1C0586E600817EDA /* AsynImageView.m */,
+				EA9372021C05809600817EDA /* BaseView */,
 				EA9371E61C05576600817EDA /* UMAnalytics_Sdk_3.6.5 */,
 				EA93717E1C05555200817EDA /* BluetoothDependencies */,
 				EA9371561C05541300817EDA /* AFNetworking */,
@@ -365,9 +411,6 @@
 				EA93711C1C054DB300817EDA /* IQKeyBoardManager */,
 				EA9371141C054D9500817EDA /* JSONKit */,
 				EA9371051C054D6000817EDA /* UIButton+Category */,
-				EA9371EF1C055DDA00817EDA /* HeBaseViewController.h */,
-				EA9371F01C055DDA00817EDA /* HeBaseViewController.m */,
-				EA9371F11C055DDA00817EDA /* HeBaseViewController.xib */,
 			);
 			name = Custom;
 			sourceTree = "<group>";
@@ -628,6 +671,49 @@
 			path = UMAnalytics_Sdk_3.6.5;
 			sourceTree = "<group>";
 		};
+		EA9372021C05809600817EDA /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				EA9371EC1C055C8800817EDA /* CustomNavigationController.h */,
+				EA9371ED1C055C8800817EDA /* CustomNavigationController.m */,
+				EA9371EF1C055DDA00817EDA /* HeBaseViewController.h */,
+				EA9371F01C055DDA00817EDA /* HeBaseViewController.m */,
+				EA9371F11C055DDA00817EDA /* HeBaseViewController.xib */,
+			);
+			name = BaseView;
+			sourceTree = "<group>";
+		};
+		EA9372031C0580AF00817EDA /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				EA9371F41C055F9400817EDA /* MainPageVC.h */,
+				EA9371F51C055F9400817EDA /* MainPageVC.m */,
+				EA9371F61C055F9400817EDA /* MainPageVC.xib */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		EA9372051C0580C600817EDA /* PairView */ = {
+			isa = PBXGroup;
+			children = (
+				EA9372081C05818E00817EDA /* HeStartPairVC.h */,
+				EA9372091C05818E00817EDA /* HeStartPairVC.m */,
+				EA93720A1C05818E00817EDA /* HeStartPairVC.xib */,
+			);
+			name = PairView;
+			sourceTree = "<group>";
+		};
+		EA9372141C05874800817EDA /* NetWorkReach */ = {
+			isa = PBXGroup;
+			children = (
+				EA9372151C05874900817EDA /* AHReach.h */,
+				EA9372161C05874900817EDA /* AHReach.m */,
+				EA9372171C05874900817EDA /* Reachability.h */,
+				EA9372181C05874900817EDA /* Reachability.m */,
+			);
+			path = NetWorkReach;
+			sourceTree = "<group>";
+		};
 		EAA69A9D1C044FD80037E89C = {
 			isa = PBXGroup;
 			children = (
@@ -689,6 +775,9 @@
 		EACDC0F11C04B88C00E6298E /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				EA93721B1C058CE900817EDA /* blueBG.png */,
+				EA9372061C05816F00817EDA /* GrayBG.png */,
+				EA9372001C05808F00817EDA /* bannerIcon.png */,
 				EA9371FB1C0564C000817EDA /* NAVGrayBg.png */,
 				EA9371F91C05631E00817EDA /* NavBarIOS7.png */,
 				EACDC0F21C04BAEC00E6298E /* button_BG.png */,
@@ -793,16 +882,21 @@
 				EACDC1031C04BAEC00E6298E /* filterIcon.png in Resources */,
 				EAA69AB91C044FD80037E89C /* LaunchScreen.storyboard in Resources */,
 				EA9371331C054DB300817EDA /* IQKeyboardManager.bundle in Resources */,
+				EA9372011C05808F00817EDA /* bannerIcon.png in Resources */,
 				EACDC0FD1C04BAEC00E6298E /* menuIcon.png in Resources */,
 				EAA69AB61C044FD80037E89C /* Assets.xcassets in Resources */,
 				EACDC0FB1C04BAEC00E6298E /* button_BG.png in Resources */,
 				EACDC1001C04BAEC00E6298E /* autoIcon.png in Resources */,
 				EACDC0FC1C04BAEC00E6298E /* scan_BG.png in Resources */,
+				EA9372071C05816F00817EDA /* GrayBG.png in Resources */,
 				EACDC0FF1C04BAEC00E6298E /* sleepIcon.png in Resources */,
+				EA93720C1C05818E00817EDA /* HeStartPairVC.xib in Resources */,
 				EACDC1011C04BAEC00E6298E /* vitaIcon.png in Resources */,
 				EA9371F81C055F9400817EDA /* MainPageVC.xib in Resources */,
 				EAA69AB41C044FD80037E89C /* Main.storyboard in Resources */,
+				EA9372211C05A2F900817EDA /* ModifyDeviceVC.xib in Resources */,
 				EACDC0FE1C04BAEC00E6298E /* switchIcon.png in Resources */,
+				EA93721C1C058CE900817EDA /* blueBG.png in Resources */,
 				EA9371FA1C05631E00817EDA /* NavBarIOS7.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -846,6 +940,8 @@
 				EA9371DD1C05555200817EDA /* ioapi.c in Sources */,
 				EAA69AB11C044FD80037E89C /* ViewController.m in Sources */,
 				EA9371381C054DB300817EDA /* IQToolbar.m in Sources */,
+				EA9372131C05872900817EDA /* GTMBase64.m in Sources */,
+				EA93721A1C05874900817EDA /* Reachability.m in Sources */,
 				EA9371131C054D7400817EDA /* UIButton+Bootstrap.m in Sources */,
 				EA93714E1C054E8800817EDA /* DDMenuController.m in Sources */,
 				EA9371EE1C055C8800817EDA /* CustomNavigationController.m in Sources */,
@@ -867,14 +963,20 @@
 				EA9371731C05541300817EDA /* AFURLConnectionOperation.m in Sources */,
 				EA9371DE1C05555200817EDA /* mztools.c in Sources */,
 				EA9371711C05541300817EDA /* AFOSCClient.m in Sources */,
+				EA93720B1C05818E00817EDA /* HeStartPairVC.m in Sources */,
 				EA9371121C054D7400817EDA /* UIButton+associate.m in Sources */,
 				EA9371751C05541300817EDA /* UIImageView+AFNetworking.m in Sources */,
 				EA9371471C054DFC00817EDA /* MBProgressHUD.m in Sources */,
 				EA9371371C054DB300817EDA /* IQTitleBarButtonItem.m in Sources */,
+				EA9372271C05A3A000817EDA /* PurifierModel.m in Sources */,
+				EA9372201C05A2F900817EDA /* ModifyDeviceVC.m in Sources */,
 				EA9371721C05541300817EDA /* AFPropertyListRequestOperation.m in Sources */,
+				EA9372241C05A34100817EDA /* DeviceModel.m in Sources */,
+				EA93720F1C0586E600817EDA /* AsynImageView.m in Sources */,
 				EA9371391C054DB300817EDA /* NSArray+Sort.m in Sources */,
 				EA9371191C054D9500817EDA /* CHANGELOG.md in Sources */,
 				EA93711B1C054D9500817EDA /* README.md in Sources */,
+				EA9372191C05874900817EDA /* AHReach.m in Sources */,
 				EA9371F71C055F9400817EDA /* MainPageVC.m in Sources */,
 				EA9371E11C05555200817EDA /* SSZipArchive.m in Sources */,
 				EA9371E01C05555200817EDA /* zip.c in Sources */,

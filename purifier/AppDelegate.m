@@ -13,6 +13,7 @@
 #import "DDMenuController.h"
 #import "CustomNavigationController.h"
 #import "MainPageVC.h"
+#import "HeStartPairVC.h"
 
 @interface AppDelegate ()
 
@@ -41,18 +42,21 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     
-    MainPageVC *mainController = [[MainPageVC alloc] initWithNibName:nil bundle:nil];
+//    MainPageVC *mainController = [[MainPageVC alloc] initWithNibName:nil bundle:nil];
     
-    CustomNavigationController *navController = [[CustomNavigationController alloc] initWithRootViewController:mainController];
+    HeStartPairVC *startPairVC = [[HeStartPairVC alloc] initWithNibName:nil bundle:nil];
+    CustomNavigationController *navController = [[CustomNavigationController alloc] initWithRootViewController:startPairVC];
     
-    DDMenuController *rootController = [[DDMenuController alloc] initWithRootViewController:navController];
-    _menuController = rootController;
+//    DDMenuController *rootController = [[DDMenuController alloc] initWithRootViewController:navController];
+//    _menuController = rootController;
+//    
+//    LeftController *leftController = [[LeftController alloc] init];
+//    rootController.leftViewController = leftController;
     
-    LeftController *leftController = [[LeftController alloc] init];
-    rootController.leftViewController = leftController;
     
     
-    self.window.rootViewController = rootController;
+
+    self.window.rootViewController = navController;
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];

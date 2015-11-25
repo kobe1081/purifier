@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ModifyDeviceVC.h"
 
-@interface LeftController : UIViewController
+@interface LeftController : UIViewController<SaveProtocol>
 
 @property(nonatomic,strong) UITableView *tableView;
 
