@@ -7,6 +7,12 @@
 //
 
 #import "AppDelegate.h"
+#import "MobClick.h"
+#import "IQKeyboardManager.h"
+#import "LeftController.h"
+#import "DDMenuController.h"
+#import "CustomNavigationController.h"
+#import "MainPageVC.h"
 
 @interface AppDelegate ()
 
@@ -17,7 +23,39 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [self initialization];
+    [self umengTrack];
     return YES;
+}
+
+- (void)initialization
+{
+    [[IQKeyboardManager sharedManager] setEnable:YES];
+    
+    [[UINavigationBar appearance] setTintColor:NAVTINTCOLOR];
+    UIImage *navBackgroundImage = [UIImage imageNamed:@"NavBarIOS7"];
+    [[UINavigationBar appearance] setBackgroundImage:navBackgroundImage forBarMetrics:UIBarMetricsDefault];
+    
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    // Override point for customization after application launch.
+    
+    MainPageVC *mainController = [[MainPageVC alloc] initWithNibName:nil bundle:nil];
+    
+    CustomNavigationController *navController = [[CustomNavigationController alloc] initWithRootViewController:mainController];
+    
+    DDMenuController *rootController = [[DDMenuController alloc] initWithRootViewController:navController];
+    _menuController = rootController;
+    
+    LeftController *leftController = [[LeftController alloc] init];
+    rootController.leftViewController = leftController;
+    
+    
+    self.window.rootViewController = rootController;
+    
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
@@ -40,6 +78,46 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+
+//初始化友盟的SDK
+- (void)umengTrack
+{
+    [MobClick setLogEnabled:YES];  // 打开友盟sdk调试，注意Release发布时需要注释掉此行,减少io消耗
+    NSString *version = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
+    [MobClick setAppVersion:version];
+    [MobClick startWithAppkey:UMANALYSISKEY reportPolicy:(ReportPolicy) REALTIME channelId:nil];
+    [MobClick setCrashReportEnabled:YES]; // 如果不需要捕捉异常，注释掉此行
+    [MobClick setBackgroundTaskEnabled:YES];
+    [MobClick setLogSendInterval:3600];//每隔两小时上传一次
+    [MobClick updateOnlineConfig];  //在线参数配置
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onlineConfigCallBack:) name:UMOnlineConfigDidFinishedNotification object:nil];
+}
+
+- (void)onlineConfigCallBack:(NSNotification *)note {
+    
+    NSLog(@"online config has fininshed and note = %@", note.userInfo);
+}
+
+- (void)networkDidSetup:(NSNotification *)notification {
+    
+    NSLog(@"已连接");
+}
+
+- (void)networkDidClose:(NSNotification *)notification {
+    
+    NSLog(@"未连接。。。");
+}
+
+- (void)networkDidRegister:(NSNotification *)notification {
+    
+    NSLog(@"已注册");
+}
+
+- (void)networkDidLogin:(NSNotification *)notification {
+    
+    NSLog(@"已登录");
 }
 
 @end
