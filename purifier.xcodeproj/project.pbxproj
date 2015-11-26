@@ -99,6 +99,11 @@
 		EAA69AB61C044FD80037E89C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAA69AB51C044FD80037E89C /* Assets.xcassets */; };
 		EAA69AB91C044FD80037E89C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAA69AB71C044FD80037E89C /* LaunchScreen.storyboard */; };
 		EAA69AC41C044FD80037E89C /* purifierTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA69AC31C044FD80037E89C /* purifierTests.m */; };
+		EACA40061C06B6B80035810E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EACA40081C06B6B80035810E /* Localizable.strings */; };
+		EACA400F1C06B7FD0035810E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EACA40111C06B7FD0035810E /* InfoPlist.strings */; };
+		EACA40151C06DEB10035810E /* circleGrayBG.png in Resources */ = {isa = PBXBuildFile; fileRef = EACA40141C06DEB10035810E /* circleGrayBG.png */; };
+		EACA40171C06F1800035810E /* shutDownIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = EACA40161C06F1800035810E /* shutDownIcon.png */; };
+		EACA40191C06F5720035810E /* circleGraySepBG.png in Resources */ = {isa = PBXBuildFile; fileRef = EACA40181C06F5720035810E /* circleGraySepBG.png */; };
 		EACDC0FB1C04BAEC00E6298E /* button_BG.png in Resources */ = {isa = PBXBuildFile; fileRef = EACDC0F21C04BAEC00E6298E /* button_BG.png */; };
 		EACDC0FC1C04BAEC00E6298E /* scan_BG.png in Resources */ = {isa = PBXBuildFile; fileRef = EACDC0F31C04BAEC00E6298E /* scan_BG.png */; };
 		EACDC0FD1C04BAEC00E6298E /* menuIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = EACDC0F41C04BAEC00E6298E /* menuIcon.png */; };
@@ -352,6 +357,17 @@
 		EAA69ABF1C044FD80037E89C /* purifierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = purifierTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAA69AC31C044FD80037E89C /* purifierTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = purifierTests.m; sourceTree = "<group>"; };
 		EAA69AC51C044FD80037E89C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EACA40071C06B6B80035810E /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EACA40091C06B7080035810E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		EACA400A1C06B7080035810E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		EACA400B1C06B7080035810E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		EACA400C1C06B7E00035810E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EACA40101C06B7FD0035810E /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EACA40121C06B8000035810E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EACA40131C06B8020035810E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		EACA40141C06DEB10035810E /* circleGrayBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circleGrayBG.png; sourceTree = "<group>"; };
+		EACA40161C06F1800035810E /* shutDownIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shutDownIcon.png; sourceTree = "<group>"; };
+		EACA40181C06F5720035810E /* circleGraySepBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circleGraySepBG.png; sourceTree = "<group>"; };
 		EACDC0F21C04BAEC00E6298E /* button_BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_BG.png; sourceTree = "<group>"; };
 		EACDC0F31C04BAEC00E6298E /* scan_BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scan_BG.png; sourceTree = "<group>"; };
 		EACDC0F41C04BAEC00E6298E /* menuIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menuIcon.png; sourceTree = "<group>"; };
@@ -808,6 +824,8 @@
 			children = (
 				EAA69AAA1C044FD80037E89C /* main.m */,
 				EA9371551C054FFE00817EDA /* Purifier.pch */,
+				EACA40081C06B6B80035810E /* Localizable.strings */,
+				EACA40111C06B7FD0035810E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -824,6 +842,9 @@
 		EACDC0F11C04B88C00E6298E /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				EACA40181C06F5720035810E /* circleGraySepBG.png */,
+				EACA40161C06F1800035810E /* shutDownIcon.png */,
+				EACA40141C06DEB10035810E /* circleGrayBG.png */,
 				EA7932771C05EFB100DD1200 /* badQualityBG.png */,
 				EA7932751C05EF9300DD1200 /* mediumQualityBG.png */,
 				EA7932731C05EF5F00DD1200 /* goodQualityBG.png */,
@@ -910,6 +931,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = EAA69A9D1C044FD80037E89C;
 			productRefGroup = EAA69AA71C044FD80037E89C /* Products */;
@@ -932,8 +954,10 @@
 				EA7932761C05EF9300DD1200 /* mediumQualityBG.png in Resources */,
 				EA9371F31C055DDA00817EDA /* HeBaseViewController.xib in Resources */,
 				EA7932711C05ED9500DD1200 /* addSelect.png in Resources */,
+				EACA40061C06B6B80035810E /* Localizable.strings in Resources */,
 				EACDC1021C04BAEC00E6298E /* icon_BG.png in Resources */,
 				EA93710F1C054D7400817EDA /* FontAwesome.ttf in Resources */,
+				EACA40191C06F5720035810E /* circleGraySepBG.png in Resources */,
 				EA7932721C05ED9500DD1200 /* filterSelect.png in Resources */,
 				EA9371461C054DFC00817EDA /* MBProgressHUD.bundle in Resources */,
 				EA79326F1C05ED9500DD1200 /* autoSelect.png in Resources */,
@@ -945,6 +969,7 @@
 				EA79327A1C05F6D700DD1200 /* vitaSelect.png in Resources */,
 				EA9371331C054DB300817EDA /* IQKeyboardManager.bundle in Resources */,
 				EA9372011C05808F00817EDA /* bannerIcon.png in Resources */,
+				EACA40151C06DEB10035810E /* circleGrayBG.png in Resources */,
 				EACDC0FD1C04BAEC00E6298E /* menuIcon.png in Resources */,
 				EA7932691C05ED9500DD1200 /* vitaNormal.png in Resources */,
 				EAA69AB61C044FD80037E89C /* Assets.xcassets in Resources */,
@@ -952,9 +977,11 @@
 				EACDC1001C04BAEC00E6298E /* autoIcon.png in Resources */,
 				EACDC0FC1C04BAEC00E6298E /* scan_BG.png in Resources */,
 				EA9372071C05816F00817EDA /* GrayBG.png in Resources */,
+				EACA40171C06F1800035810E /* shutDownIcon.png in Resources */,
 				EACDC0FF1C04BAEC00E6298E /* sleepIcon.png in Resources */,
 				EA93720C1C05818E00817EDA /* HeStartPairVC.xib in Resources */,
 				EACDC1011C04BAEC00E6298E /* vitaIcon.png in Resources */,
+				EACA400F1C06B7FD0035810E /* InfoPlist.strings in Resources */,
 				EA9371F81C055F9400817EDA /* MainPageVC.xib in Resources */,
 				EA79326D1C05ED9500DD1200 /* sleepSelect.png in Resources */,
 				EA7932701C05ED9500DD1200 /* decreaseSelect.png in Resources */,
@@ -1076,6 +1103,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				EAA69AB31C044FD80037E89C /* Base */,
+				EACA40091C06B7080035810E /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -1084,8 +1112,29 @@
 			isa = PBXVariantGroup;
 			children = (
 				EAA69AB81C044FD80037E89C /* Base */,
+				EACA400A1C06B7080035810E /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EACA40081C06B6B80035810E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EACA40071C06B6B80035810E /* Base */,
+				EACA400B1C06B7080035810E /* zh-Hans */,
+				EACA400C1C06B7E00035810E /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		EACA40111C06B7FD0035810E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EACA40101C06B7FD0035810E /* Base */,
+				EACA40121C06B8000035810E /* en */,
+				EACA40131C06B8020035810E /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
